@@ -42,7 +42,6 @@ if (( $month == 2 )) ; then
 		day=$((1 + RANDOM % 28))
 	fi
 fi
-
 echo $month"/"$day"/"$year
 #echo "$day"/$month"/"$year
 
